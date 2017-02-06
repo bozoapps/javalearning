@@ -1,7 +1,7 @@
 package br.com.bozoapps.model;
 
 public class Fish {
-	
+
 	private String name;
 
 	public String getName() {
@@ -11,9 +11,9 @@ public class Fish {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public String swim(){
-		return this.name+" nada...";
+
+	public String swim() {
+		return this.name + " nada";
 	}
 
 }
